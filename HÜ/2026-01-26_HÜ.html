@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Hausübung</h1>
+        <p>Button gibt beim Klicken die aktuelle Zeit aus</p>
+
+        <section>
+            <h2>Uhrzeit:</h2>
+            <div id="time"
+                 class="mine theirs active"></div>
+            <button id="timeButton">BUTTON</button>
+        </section>
+    </main>
+
+    <script>
+        const timeDiv = document.getElementById("time");
+        const timeButton = document.getElementById("timeButton");
+
+        timeButton.addEventListener("click", () => {
+            const now = new Date();
+            timeDiv.textContent = now.toLocaleTimeString();
+        });
+
+        const dummy = document.getElementById("dummy");
+        dummy.addEventListener("click", () => {
+            console.log(new Date(), "klick");
+        });
+    </script>
+</body>
+
+</html>
