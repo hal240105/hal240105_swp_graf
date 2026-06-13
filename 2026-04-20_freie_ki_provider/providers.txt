@@ -1,0 +1,14 @@
+[90mT[39m  Credentials [90m~\.local\share\opencode\auth.json
+[90m|[39m
+[34m•[39m  GitHub Copilot [90moauth
+[90m|[39m
+[34m•[39m  Google [90mapi
+[90m|[39m
+[34m•[39m  Nvidia [90mapi
+[90m|[39m
+[34m•[39m  OpenCode Go [90mapi
+[90m|[39m
+[34m•[39m  OpenCode Zen [90mapi
+[90m|[39m
+[90m—[39m  5 credentials
+
